@@ -231,9 +231,10 @@
 .blog {
   margin-bottom: 130px;
   display: flex;
+  justify-content: space-around;
 }
 .post {
-  width: 48%;
+  width: 47%;
   display: flex;
   position: relative;
   height: 400px;
@@ -268,7 +269,7 @@
   }
   &__img{
     height: 400px;
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
     background-repeat: no-repeat;
   }
