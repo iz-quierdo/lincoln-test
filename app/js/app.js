@@ -23,6 +23,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     });
 
+    $(".nav-menu-btn").click(function () {
+      $(".nav-menu").toggleClass("active");
+    });
+
   }(jQuery));
 
 });
