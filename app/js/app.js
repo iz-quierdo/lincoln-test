@@ -1,6 +1,20 @@
 
 document.addEventListener("DOMContentLoaded", function() {
 
-	// Custom JS
+  ;(function($) {
+
+    $('.slick').slick({
+      infinite: true,
+      arrows: false,
+      dots: true,
+      customPaging: function(slider, i) {
+        return '<div class="slider-dot"></div>';
+      },
+      slidesToShow: 2,
+      slidesToScroll: 1,
+
+    });
+
+  }(jQuery));
 
 });

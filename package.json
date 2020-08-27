@@ -21,6 +21,8 @@
 				"gulp-uglify-es": "^2.0.0"
 		},
 		"dependencies": {
-				"reset-css": "^5.0.1"
+				"jquery": "^3.5.1",
+				"reset-css": "^5.0.1",
+				"slick-carousel": "^1.8.1"
 		}
 }

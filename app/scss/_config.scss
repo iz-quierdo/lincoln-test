@@ -9,6 +9,7 @@ $white: #fff;
 $dark_grey: #122332;
 $light_grey: #59656F;
 $light_grey_2: #F6F6F6;
+$light_grey_3: #D1D1D1;
 $dark_blue: #162D44;
 $light_blue: #1282C3;
 $hover_blue: #304050;
@@ -18,6 +19,8 @@ $system: -apple-system, BlinkMacSystemFont, Arial, sans-serif; // System Font Fa
 
 // IMPORT SECTION
 @import 'node_modules/reset-css/sass/reset'; // Classical reset.css
+@import 'node_modules/slick-carousel/slick/slick.scss'; // Slick slider scss
+@import 'node_modules/slick-carousel/slick/slick-theme.scss'; // Slick slider scss theme
 
 
 // FONTS LOAD SECTION
