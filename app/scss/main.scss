@@ -1,3 +1,81 @@
 @import 'config';
 
 // CUSTOM USER STYLES & IMPORTS
+.block {
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__logo {
+    & img {
+      width: 323px;
+    }
+  }
+  &__working-time, &__phone {
+    letter-spacing: 1.2px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+  }
+  &__info {
+    font-size: 18px;
+    font-weight: 800;
+    display: flex;
+  }
+  &__phone {
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #ccc;
+    text-decoration: none;
+    & a {
+      font-size: 17px;
+      text-decoration: none;
+      color: $total_black;
+    }
+  }
+  &__icon {
+    margin-right: 20px;
+    font-size: 25px;
+    color: $accent1;
+  }
+  &__small {
+    font-size: 15px;
+  }
+  &__cta {
+    border: 2px solid $accent1;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 800;
+  }
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  & li {
+    display: inline-block;
+  }
+}
+
+.social-menu {
+  & li {
+    display: inline-block;
+  }
+}
+
+
+.footer {
+  background: $dark_grey;
+}
